@@ -7,7 +7,7 @@ int main()
 {
 
     int limit,i,hr,mi,k=0,z=0,PASSWORD,p1,c[4],p[4],L[6],O,j,tag=0,choice,check1,length;
-    char ch,usn[2][20]={"chintu","karthikJ"},ch1,u[20]={0},R[6],str[1000],data[100],chars;
+    char ch,usn[2][20]={"chintu","karthikJ"}/*do change ur username*/,ch1,u[20]={0},R[6],str[1000],data[100],chars;
     time_t t;
     FILE *file,*file1,*fp;
     struct tm *a;
